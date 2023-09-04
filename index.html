@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Encuesta: Aguante la pizza, pero con que?</h1>
+
+    <div class="recuadro">
+        <form action="https://formspree.io/f/xleyjdjl" method="POST">
+            <label>Ingrese su nombre:<input class="campos" type="text" name="name" required
+                    placeholder="Max. 10 digitos" maxlength="10"></label>
+            <br>
+            <label>Ingrese su E-mail: <input class="campos" type="email" name="email" required
+                    placeholder="Ej: ejemplo@hotmail.com"></label>
+            <br>
+            <label>Introdusca la fecha actual <input type="datetime-local" value="08/08/2023" required></label>
+            <br>
+            <br>
+            <label>Elija una pizza de su gusto: <div class="content-select"><select name="pizza" id="pizza" required>
+                    <option value="Ninguna" selected>Ninguna</option>
+                    <option value="Pizza de primavera">Pizza de primavera</option>
+                    <option value="Pizza de rúcula">Pizza de rúcula</option>
+                    <option value="Pizza de palmitos con roquefort">Pizza de palmitos con roquefort</option>
+                    <option value="Pizza de jamón con huevo">Pizza de jamón con huevo</option>
+                    <option value="Pizza de Fugazza Cebolla">Pizza de Fugazza Cebolla</option>
+                    <option value="Pizza de panceta">Pizza de panceta</option>
+                    <option value="Pizza con huevo duro">Pizza con huevo duro</option>
+                    <option value="Pizza de champiñones">Pizza de champiñones</option>
+                    <option value="pizza de rucula y jamon crudo">pizza de rucula y jamon crudo</option>
+                    <option value="Pizza con huevo frito">Pizza con huevo frito</option>
+                    <option value="Pizza de choclo">Pizza de choclo</option>
+                    <option value="Pizza de Palmitos y Salsa Golf">Pizza de Palmitos y Salsa Golf</option>
+                    <option value="Pizza de salchichas">Pizza de salchicha</option>
+                    <option value="Pizza hawaiana">Pizza hawaiana</option>
+                    <option value="Pizza de ananá">Pizza de ananá</option>
+                    <option value="Pizza de roquefort">Pizza de roquefort</option>
+                    <option value="Pizza de espinaca">Pizza de espinaca</option>
+                    <option value="Pizza con papas fritas">Pizza con papas fritas</option>
+                    <option value="Pizza napolitana">Pizza napolitana</option>
+                    <option value="Pizza con anchoas">Pizza con anchoas</option>
+                    <option value="Pizza de atún">Pizza de atún</option>
+                    <option value="Pizza de jamón">Pizza de jamón</option>
+                    <option value="Pizza de jamon y morrones">Pizza de jamon y morrones</option>
+                    <option value="Pizza de calabresa">Pizza de calabresa</option>
+                </select></label></div>
+            <br>
+            <label>La pizza va con ...
+                Vino:<input type="radio" name="vino" id="vino">
+                Cerveza:<input type="radio" name="cerveza" id="cerveza">
+                Agua:<input type="radio" name="agua" id="agua"></label>
+            <br>
+            <label>Elige un postre:
+                <input type="checkbox" name="flan" id="flan">Flan casero
+                <input type="checkbox" name="Chocotorta" id="Chocotorta">Chocotorta
+                <input type="checkbox" name="Tiramisu" id="Tiramisu">Tiramisu
+            </label>
+            <br>
+            <label>Elije con cuantos amigos seria la cena: (entre 1-10)</label><input type="number" name="cantidad" id="cantidad" min="1" max="10">
+            <br>
+            <br>
+            <label>Haz algun comentario si no ves tus opciones a elegir en pantalla: <br>
+            <input type="text" name="comentario" id="comentario"></label>
+            <br>
+            <br>
+            <label>Reiniciar encuesta: <button type="reset">Reiniciar</button></label>
+            <label>Enviar informacion: <button type="submit">Enviar</button></label>
+        </form>
+    </div>
+</body>
+
+</html>

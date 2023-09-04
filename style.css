@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+}
+
+input{
+    margin-top: 2%;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+   
+}
+
+h1{
+    color: rgb(255, 179, 255);
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 50px;
+    border: #8b0385 double 2px;
+    width: 60%;
+    text-shadow: 0 0 70px #fefcc9, 2px -2px 3px #eb5adf, -4px -4px 5px #ee34ff, 5px -10px 6px #b606ad, -5px -12px 8px #8b0385, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+}
+label{
+    margin-left: 5%;
+}
+
+body{
+    background-color: black;
+}
+
+.campos{
+    margin-left: 4%;
+}
+
+.recuadro{
+    display: block;
+    border: 3px ridge rebeccapurple;
+    margin:auto;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-image: url(Imagen/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#comentario{
+    width: 435px;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 2px double rebeccapurple;
+}
+
+.content-select{
+    width: 190px;
+    position: relative;
+    margin-left: 23%;
+    margin-top: -3%;
+}
+ 
+.content-select select{
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+      padding: 7px 10px;
+      height: 40px;
+      outline: 0; 
+      border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: rebeccapurple;
+    font-size: 1em;
+    color: rebeccapurple;
+    font-family: 'Quicksand', sans-serif;
+    border:2px solid #8b0385;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+button{
+    margin-bottom: 10px;
+}
+
+
+button:active{
+     border: 4px solid rebeccapurple; 
+}
+
